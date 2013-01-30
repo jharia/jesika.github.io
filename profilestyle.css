@@ -1,0 +1,88 @@
+.thumbnail
+{
+float: left;
+width: 200px;
+margin: 0 15px 15px 0;
+padding: 5px;
+margin: 0 auto;
+opacity: 1
+}
+
+.detail
+{
+float: left;
+width: 1000px;
+margin: 0 15px 15px 0;
+padding: 5px;
+margin: 0 auto;
+}
+
+.contact
+{
+float: left;
+width: 230px;
+margin: 0 15px 15px 0;
+padding: 20px;
+margin: 0 auto;
+}
+
+.project_text
+{
+	margin: 0 auto;
+	padding: 5px;
+	width:1000px;
+	color:black;
+	text-align:center;
+	font-family: "Schoolbell", "Bradley Hand ITC", "Marker Felt",
+	             sans-serif;
+	font-size:30px;
+}
+
+.project_title
+{
+	margin: 0 auto;
+	padding: 5px;
+	width:1000px;
+	color:blue;
+	text-align:center;
+	font-family: "Schoolbell", "Bradley Hand ITC", "Marker Felt",
+	             sans-serif;
+	font-size:40px;
+}
+
+.project_link
+{
+	margin: 0 auto;
+	padding: 5px;
+	width:1000px;
+	color:OrangeRed;
+	text-align:center;
+	font-family: "Schoolbell", "Bradley Hand ITC", "Marker Felt",
+	             sans-serif;
+	font-size:30px;
+}
+
+.project_big_title
+{
+	margin: 0 auto;
+	padding: 5px;
+	width:1000px;
+	color:limegreen;
+	text-align:center;
+	font-family: "Schoolbell", "Bradley Hand ITC", "Marker Felt",
+	             sans-serif;
+	font-size:50px;
+}
+
+.disclaimer
+{
+	margin: 0 auto;
+	padding-top: 50px;
+	width:1000px;
+	color:black;
+	text-align:center;
+	font-family: "Schoolbell", "Bradley Hand ITC", "Marker Felt",
+	             sans-serif;
+	font-size:25px;
+}
+.clearboth { clear: both; }
