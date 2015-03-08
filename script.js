@@ -62,19 +62,20 @@ jQuery(document).ready(function($) {
 		$('.project_link').hide();
 
 		if ($(this).attr('id')==='mystory') {
-			console.log('my story reached'); 
 			$('#my-entire-story').show(); 
 		} else if ($(this).attr('id') === 'findme') {
-			console.log('find me reached'); 
 			$('#all-contacts').show(); 
 		} else if ($(this).attr('id') === 'projects') {
-			console.log('projects reached'); 
 			$('.project_text').show(); 
 			$('.project_title').show();
 			$('.project_link').show();
 			$('.project_big_title').show();
 			$('#all-projects').show(); 
 		}
+		
+		$('html,body').animate({
+	          scrollTop: $(this).offset().top
+	        }, 1000);
 	}); 
 
 	// Opaque effect 
