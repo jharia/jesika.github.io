@@ -1,4 +1,4 @@
-// scroll to section on page 
+// scroll to section on page
 jQuery(document).ready(function($) {
   function filterPath(string) {
   return string
@@ -8,9 +8,9 @@ jQuery(document).ready(function($) {
   }
   var locationPath = filterPath(location.pathname);
   var scrollElem = scrollableElement('html', 'body');
- 
+
 $('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
         || location.hostname == this.hostname) {
 
         // var target = $(this.hash);
@@ -24,7 +24,7 @@ $('a[href*=#]:not([href=#])').click(function() {
         }
     }
 });
- 
+
   // use the first element that is "scrollable"
   function scrollableElement(els) {
     for (var i = 0, argLength = arguments.length; i <argLength; i++) {
@@ -43,51 +43,55 @@ $('a[href*=#]:not([href=#])').click(function() {
     }
     return [];
   }
- 
+
 
 jQuery(document).ready(function($) {
 	jQuery.noConflict();
-	$('.detail1').hide(); 
+	$('.detail1').hide();
 	$('.project_text').hide();
 	$('.project_title').hide();
 	$('.project_big_title').hide();
 	$('.project_link').hide();
-	$('#my-entire-story').show(); 
+	$('#my-entire-story').show();
 
-	// Show different parts 
+	// Show different parts
 	$('.thumbnail').click(function() {
-		$('.detail1').hide(); 
+		$('.detail1').hide();
 		$('.project_text').hide();
 		$('.project_title').hide();
 		$('.project_big_title').hide();
 		$('.project_link').hide();
 
 		if ($(this).attr('id')==='mystory') {
-			$('#my-entire-story').show(); 
+			$('#my-entire-story').show();
 		} else if ($(this).attr('id') === 'findme') {
-			$('#all-contacts').show(); 
-		} else if ($(this).attr('id') === 'projects') {
-			$('.project_text').show(); 
+			$('#all-contacts').show();
+      $('.blog-title').show();
+      $('.blog-post').show();
+		} else if ($(this).attr('id') === 'blog') {
+      $('#blog-listings').show();
+    } else if ($(this).attr('id') === 'projects') {
+			$('.project_text').show();
 			$('.project_title').show();
 			$('.project_link').show();
 			$('.project_big_title').show();
-			$('#all-projects').show(); 
+			$('#all-projects').show();
 		}
-		
+
 		$('html,body').animate({
 	          scrollTop: $(this).offset().top
 	        }, 1000);
-	}); 
+	});
 
-	// Opaque effect 
+	// Opaque effect
 	$('.thumbnail').mouseenter(function() {
 		$(this).css({ opacity: 0.8});
-	}); 
+	});
 	$('.thumbnail').mouseleave(function() {
 		$(this).css({ opacity: 1});
-	}); 
+	});
 
-}); 
+});
 
 
 });

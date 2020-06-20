@@ -1,7 +1,7 @@
 .thumbnail
 {
 float: left;
-width: 200px;
+width: 170px;
 margin: 0 15px 15px 0;
 padding: 5px;
 margin: 0 auto;
@@ -27,7 +27,7 @@ padding: 20px;
 margin: 0 auto;
 }
 
-.project_text
+.project_text, .blog-post
 {
 	margin: 0 auto;
 	padding: 5px;
@@ -39,7 +39,7 @@ margin: 0 auto;
 	font-size:30px;
 }
 
-.project_title
+.project_title, .blog-title
 {
 	margin: 0 auto;
 	padding: 5px;

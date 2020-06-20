@@ -1,0 +1,72 @@
+body {
+  font-family: arial;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+
+@media (min-width: 1000px) {
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+/*    grid-template-rows: 1fr 1fr;
+*/  }
+}
+
+.image{
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-size: cover;
+  min-height: 100vh;
+/*  position: relative;*/
+}
+
+header {
+  grid-column: span 3;
+  padding: 30px;
+  text-align: center;
+  font-size: 1.4em;
+  background-color: #369;
+  color: white;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  min-height: 1000px;
+}
+
+h1 {
+  margin-bottom: 1em;
+  font-size: 1.3em;
+  font-weight: bold;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  text-align: right;
+  font-family: 'Poiret One', cursive;
+  font-size: 150px;
+}
+
+p {
+  text-align: right;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+}
+
+a {
+  text-align: right;
+  display: block;
+  font-family: 'Poiret One', cursive;
+  font-size: 40px;
+  text-decoration: none;
+  color: #3abeff;
+}
