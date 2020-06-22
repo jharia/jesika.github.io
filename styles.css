@@ -53,7 +53,8 @@ html {
 h1 {
   text-align: right;
   font-family: 'Poiret One', cursive;
-  font-size: 150px;
+  font-size: 100px;
+  word-wrap:break-word;
 }
 
 p {
