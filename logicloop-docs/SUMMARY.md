@@ -105,6 +105,5 @@
 * [Security](security-and-legal/security.md)
 * [AI Security](security-and-legal/ai-security.md)
 * [Terms of use](security-and-legal/terms-of-use.md)
-* [Data Processing Agreement](security-and-legal/data-processing-agreement.md)
 * [Privacy policy](security-and-legal/privacy-policy.md)
 * [Services description](security-and-legal/services-description.md)
