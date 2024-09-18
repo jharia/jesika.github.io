@@ -1,7 +1,5 @@
 # LogicLoop Documentation
 
-## 🚨 IMPORTANT: [LogicLoop is shutting down. Our last date of service will be 9/6/2024 → ](https://www.logicloop.com/sunset)
-
 ## Getting started
 
 LogicLoop empowers your operators to manage business processes without waiting on engineers. Write SQL-based rules to alert, review and act in just 5 minutes with 3 easy steps:
